@@ -1,0 +1,51 @@
+
+
+.menu {
+    list-style: none;
+    position: fixed;
+    background: lightyellow;
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.viewtype {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.viewtype:hover {
+  font-size: 25px;
+  text-decoration: inherit;
+}
+
+#welcome {
+    width: 85%;
+}
+
+#home {
+    margin-top: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.images {
+    width: 250px;
+    height: 150px;
+}
+
+#gridView {
+    margin-left: 125px;
+}
+
+#slideView {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
